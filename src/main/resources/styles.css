@@ -1,0 +1,121 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.question-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.options-box {
+    -fx-padding: 10px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.option-button {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+    -fx-text-fill: #333333;
+    -fx-cursor: hand;
+    -fx-background-radius: 5px;
+}
+
+.option-button:hover {
+    -fx-background-color: #f0f0f0;
+}
+
+.option-button:pressed {
+    -fx-background-color: #e0e0e0;
+}
+
+.submit-button {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.submit-button:hover {
+    -fx-background-color: #45a049;
+}
+
+.result-pane {
+    -fx-background-color: #f0f0f0;
+}
+
+.result-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.feedback-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+}
+
+.border-box {
+    -fx-border-color: blue;
+    -fx-border-width: 2px;
+    -fx-padding: 10px; /* Add padding between images */
+}
+
+.image-view {
+    -fx-spacing: 20px; /* Add spacing between images */
+}
+.instruction-label {
+    -fx-background-color: transparent; /* Remove fill */
+    -fx-text-fill: blue; /* Set text color to blue */
+    -fx-font-size: 18px; /* Increase font size */
+    -fx-padding: 10px;
+    -fx-alignment: center;
+    -fx-border-color: blue; /* Set border color to blue */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px; /* Rounded corners */
+}
+
+/* styles.css */
+
+.question-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 10px 0;
+}
+
+.options-box {
+    -fx-alignment: center;
+}
+
+.feedback-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0;
+}
+
+.instruction-label {
+    -fx-font-size: 14px;
+    -fx-font-style: italic;
+}
+
+.option-button {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+.option-button:hover {
+    -fx-background-color: #ddd;
+}
