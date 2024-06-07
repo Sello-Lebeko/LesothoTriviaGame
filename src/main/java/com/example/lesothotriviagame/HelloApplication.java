@@ -29,7 +29,7 @@ public class HelloApplication extends Application {
 
     private Question[] questions = {
             new Question("What is the highest mountain peak in Lesotho?",
-                    1,
+                    0,
                     "/Images/Lesotho.png",
                     new Option[]{
                             new Option("Thabana Ntlenyana", true, null),
@@ -38,7 +38,7 @@ public class HelloApplication extends Application {
                             new Option("Laing's Nek", false, null)
                     }),
             new Question("What is the capital of Lesotho?",
-                    0,
+                    2,
                     "/Images/Maseru.jpg",
                     new Option[]{
                             new Option("Mokhotlong", false, null),
@@ -47,7 +47,7 @@ public class HelloApplication extends Application {
                             new Option("Pretoria", false, null)
                     }),
             new Question("Which flag represents Lesotho?",
-                    1,
+                    0,
                     null,
                     new Option[]{
                             new Option("Option A",  true, "/video/F.mp4"),
@@ -55,9 +55,8 @@ public class HelloApplication extends Application {
                             new Option("Option C",  false, "/video/C.mp4"),
                             new Option("Option D",  false, "/video/W.mp4")
                     }),
-
             new Question("When does Lesotho celebrate independence day?",
-                    0,
+                    1,
                     "/Images/ID.jpg",
                     new Option[]{
                             new Option("2 July", false, null),
@@ -66,7 +65,7 @@ public class HelloApplication extends Application {
                             new Option("23 May", false, null)
                     }),
             new Question("Which of these four cities is the most northern town in Lesotho?",
-                    1,
+                    0,
                     "/Images/R.jpg",
                     new Option[]{
                             new Option("Leribe", true, null),
@@ -75,7 +74,7 @@ public class HelloApplication extends Application {
                             new Option("Thaba-Tseka", false, null)
                     }),
             new Question("What is the highest falls in Lesotho?",
-                    0,
+                    1,
                     "/Images/Ma.jpg",
                     new Option[]{
                             new Option("Ribaneng falls", false, null),
@@ -341,7 +340,6 @@ public class HelloApplication extends Application {
         feedbackLabel.setTextFill(Color.GREEN);
         AudioClip winSound = new AudioClip(getClass().getResource("/audio/Winning.m4a").toExternalForm());
         winSound.play();
-
     }
 
     private void animateLosing() {
@@ -409,4 +407,3 @@ public class HelloApplication extends Application {
         }
     }
 }
-
